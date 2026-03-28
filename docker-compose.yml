@@ -1,0 +1,10 @@
+services:
+  sorter-php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: linked-list-sorter-php
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: sleep infinity

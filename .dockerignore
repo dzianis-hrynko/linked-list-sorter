@@ -1,0 +1,13 @@
+.git
+.gitignore
+.idea
+README.md
+LICENSE
+vendor
+var/cache
+var/log
+.env.local
+.env.*.local
+docker-compose.yml
+Dockerfile
+.dockerignore
